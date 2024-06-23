@@ -14,7 +14,7 @@ Explanation: The numbers in the range [1,2] are all in the array.
 
 void get_small(int* small, int nums[], int size){
     *small = nums[0];
-    for(int i = 1; i < size; i++){
+    for(int i = 0; i < size; i++){
 	if(nums[i] < *small){
 	    *small = nums[i];
 	}
